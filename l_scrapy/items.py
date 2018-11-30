@@ -18,3 +18,4 @@ class ItcastItem(scrapy.Item):
     name = scrapy.Field()
     title = scrapy.Field()
     info = scrapy.Field()
+    time=scrapy.Field()

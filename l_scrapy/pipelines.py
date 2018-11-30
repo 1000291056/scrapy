@@ -7,5 +7,13 @@
 
 
 class LScrapyPipeline(object):
+    def open_spider(self):
+        """"""
+        pass
+    #----------------------------------------------------------------------
+    def close_spider(self):
+        """"""
+        pass
+        
     def process_item(self, item, spider):
         return item

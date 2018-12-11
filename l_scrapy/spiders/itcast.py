@@ -7,6 +7,10 @@ class ItcastSpider(scrapy.Spider):
     allowed_domains = ['itcast.cn']
     start_urls = ['http://www.itcast.cn/channel/teacher.shtml']
     custom_settings={"some_setting":"some_value"}
+    #----------------------------------------------------------------------
+    #def from(self):
+        #""""""
+        
 
     def parse(self, response):
         filename="teacher.html"

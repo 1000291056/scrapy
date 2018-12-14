@@ -64,9 +64,11 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
+IMAGES_STORE=r"D:\Document\ffw\picture"
+ITEM_PIPELINES = {
    #'l_scrapy.pipelines.LScrapyPipeline': 300,
-#}
+   'l_scrapy.pipelines.MyImagePipe': 300,
+}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
